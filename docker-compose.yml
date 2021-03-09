@@ -11,7 +11,7 @@ services:
       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
     networks:
       - apps
-  web-bagisto:
+  web:
     image: nginx:alpine
     container_name: web
     restart: unless-stopped
