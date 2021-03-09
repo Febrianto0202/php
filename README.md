@@ -20,3 +20,16 @@ If running on a cloud server, you'll probably need to zero out the host IP:
 ```sh
 docker run -d -p 0.0.0.0:9000 php-fpm
 ```
+
+### Run with Docker Compose
+```sh
+docker build -t php-fpm .
+```
+You can then run the container with docker-compose:
+```sh
+docker-compose up -d
+```
+If running on a cloud server:
+```sh
+docker-compose ps
+```
