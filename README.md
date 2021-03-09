@@ -12,7 +12,7 @@ To create a new instance of the server with [Docker](https://www.docker.com/) in
 ```sh
 docker build -t php-fpm .
 ```
-You can then run the container and make available the relevant port (`4040` by default):
+You can then run the container and make available the relevant port (`9000` by default):
 ```sh
 docker run -d -p 9000 php-fpm
 ```
