@@ -1,4 +1,4 @@
-# Nginx PHP MySQL [![Build Status]
+# PHP-FPM
 
 Docker running Nginx, PHP-FPM, Composer, MySQL and PHPMyAdmin.
 
